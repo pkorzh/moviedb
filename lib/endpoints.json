@@ -31,6 +31,7 @@
       }
       , "movie" : {
             "Info" : { "resource": "movie/:id", "method": "get" }
+          , "Popular" : { "resource": "movie/popular", "method": "get" }
           , "AlternativeTitles" : { "resource": "movie/:id/alternative_titles", "method": "get" }
           , "Credits" : { "resource": "movie/:id/credits", "method": "get" }
           , "Images" : { "resource": "movie/:id/images", "method": "get" }
